@@ -57,3 +57,5 @@ Feel free to customize the HTML and CSS files according to your needs. Here are 
 
 - **HTML**: Update the content within the `index.html` file to reflect your own text and images.
 - **CSS**: Modify the `styles.css` file to change the styles, such as colors, fonts, and layout.
+
+  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FpjUr20ALuJV3dL8OUoxhsq%2FApp-Landing-Page-Finance-Bank-Money-(Community)-(Copy)%3Fm%3Ddev%26node-id%3D101-135" allowfullscreen></iframe>
