@@ -1,0 +1,687 @@
+@font-face {
+    font-family: 'ClashDisplayExtralight';
+    src: url('clash-display/ClashDisplayExtralight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+
+body {
+    margin: 10px 50px;
+    font-family: 'ClashDisplayExtraLight', sans-serif;
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        margin: 0;
+
+    }
+
+}
+
+
+
+nav {
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-left: 45px;
+    margin-top: 38px;
+}
+
+.nav-ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+
+
+    font-size: 20px;
+    font-style: normal;
+    line-height: 26px;
+    /* 130% */
+    text-transform: capitalize;
+}
+
+
+.nav-ul li:hover {
+    color: #F55;
+}
+
+.nav-ul:hover {
+    cursor: pointer;
+}
+
+.TM {
+    padding: 10px 7px 22px 0px;
+}
+
+.Download_btn {
+    width: 180px;
+    height: 60px;
+    flex-shrink: 0;
+
+    border-radius: 4px;
+    background: #000;
+    color: white;
+    margin-left: 500px;
+
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 155.556% */
+    text-transform: capitalize;
+
+}
+
+.Download_btn:hover {
+    color: #F55;
+    cursor: pointer;
+}
+
+
+
+.hero-Section {
+    margin-left: 47px;
+    margin-bottom: 55vh;
+
+}
+
+.hero-Section>h1 {
+
+    width: 618px;
+    color: #000;
+
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    /* 100% */
+    text-transform: capitalize;
+}
+
+.hero-Section>p {
+
+    width: 638px;
+
+    color: #000;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 155.556% */
+    text-transform: capitalize;
+
+    opacity: 0.5;
+}
+
+.hero-Section button {
+    width: 180px;
+    height: 60px;
+    flex-shrink: 0;
+
+    border-radius: 4px;
+    background: #000;
+
+    color: #FFF;
+
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 155.556% */
+    text-transform: capitalize;
+}
+
+.hero-Section button:hover {
+    color: #F55;
+    cursor: pointer;
+}
+
+.watch_video {
+    display: inline-flex;
+    align-items: center;
+
+    gap: 13px;
+
+
+}
+
+.watch_video svg:hover {
+    color: #F55;
+    cursor: pointer;
+
+}
+
+.btn_watch {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 35px;
+}
+
+.watch_video>svg {
+    width: 29px;
+    height: 29px;
+    flex-shrink: 0;
+
+}
+
+.watch_video span {
+    color: #000;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 155.556% */
+    text-transform: capitalize;
+
+}
+
+.background-svg {
+    position: absolute;
+    top: 12%;
+    left: 14%;
+    z-index: -1;
+}
+
+.phone_mockup .phone1 {
+    position: absolute;
+    top: 13%;
+    right: 19%;
+}
+
+.phone_mockup .phone2 {
+    position: absolute;
+    top: 23%;
+    right: 9%;
+    z-index: -1;
+}
+
+.phone_mockup .phone3 {
+    position: absolute;
+    top: 34%;
+    right: 0%;
+    z-index: -2;
+}
+
+.phone_mockup .ring {
+    position: absolute;
+    top: 14%;
+    right: 6%;
+    z-index: -3;
+}
+
+.phone_mockup .circle2 {
+
+    position: absolute;
+    top: 81%;
+    right: 16%;
+    z-index: -3;
+}
+
+.phone_mockup .star3 {
+
+    position: absolute;
+    top: 103%;
+    right: 43%;
+}
+
+.phone_mockup .star4 {
+
+    position: absolute;
+    top: 88%;
+    right: 83%;
+}
+
+
+.ribbons {
+    position: absolute;
+    top: 72%;
+}
+
+@media (max-width: 780px) {
+    .phone_mockup {
+        position: relative;
+        top: 341px;
+        right: -82px;
+    }
+
+    .hero-Section {
+        margin-left: 2px;
+        margin-bottom: 121vh;
+    }
+}
+
+.Features_Container {
+    display: flex;
+    margin-left: 47px;
+}
+
+
+.background-svg2 {
+    position: absolute;
+    right: 62%;
+    z-index: -2;
+    top: 128%;
+}
+
+.background-svg3 {
+    position: absolute;
+    right: -15%;
+    z-index: -2;
+    top: 128%;
+}
+
+.background-svg4 {
+    position: absolute;
+    right: 22%;
+    z-index: -2;
+    top: 261%;
+}
+
+.background-svg5 {
+    position: absolute;
+    right: 47%;
+    z-index: -2;
+    top: 358%;
+}
+
+.background-svg6 {
+    position: absolute;
+    right: 57%;
+    z-index: -2;
+    top: 468%;
+}
+
+.background-svg7 {
+    position: absolute;
+    right: 67%;
+    z-index: -2;
+    top: 631%;
+}
+
+.Features_content {
+    margin-top: 138px;
+}
+
+
+
+.advantages {
+    margin-left: 47px;
+    display: flex;
+    align-items: center;
+}
+
+.customizable {
+    display: flex;
+    margin-left: 47px;
+    align-items: center;
+}
+
+.testimonial {
+    text-align: center;
+    width: 455px;
+    margin: 0 auto;
+}
+
+.testimonial>span {
+    color: #000;
+
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 155.556% */
+    letter-spacing: 2.88px;
+    text-transform: uppercase;
+}
+
+.testimonial>.span2 {
+    color: #000;
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    /* 100% */
+    text-transform: capitalize;
+
+}
+
+.testimonial2 {
+    display: flex;
+    align-items: center;
+    margin-left: 47px;
+
+}
+
+.FAQ {
+    margin-left: 47px;
+}
+
+.FAQ>.p1 {
+    color: #F55;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 155.556% */
+    letter-spacing: 2.88px;
+    text-transform: uppercase;
+
+    margin-left: 77px;
+}
+
+.FAQ>.p2 {
+
+    width: 497px;
+    color: #000;
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 100% */
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 30px;
+
+    margin-left: 77px;
+}
+
+.FAQ_CONTENT {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+.banner {
+    margin-left: 47px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 100px;
+}
+
+.f6>span {
+    color: #000;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 162.5% */
+    text-transform: capitalize;
+    text-align: center;
+
+    margin: 0 auto;
+    display: block;
+
+    border-top: 1px solid;
+    padding: 20px 0;
+
+}
+
+@media (max-width: 600px) {
+
+
+
+    .dwn_btn {
+        display: none;
+    }
+
+    .hero-Section>p {
+        width: auto;
+    }
+
+    .hero-Section {
+        margin: 10px;
+    }
+
+    .hero-Section>h1 {
+        width: auto;
+    }
+
+    .ribbons {
+        position: relative;
+        top: 83%;
+        width: 331px;
+
+    }
+
+    .Features_Container {
+        margin-top: 70vh;
+        display: flex;
+        margin-left: 10px;
+        position: relative;
+    }
+
+    .phone_mockup {
+        position: relative;
+        top: 270px;
+        right: -224px;
+        width: 400px;
+        display: block;
+    }
+
+    .Features_content {
+        overflow-y: scroll;
+        width: -webkit-fill-available;
+        position: absolute;
+    }
+
+    .phone_mockup2 {
+        margin-top: 82vh;
+        display: block;
+        position: relative;
+        right: 167px;
+    }
+
+    .advantages {
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        margin-top: -79px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .adv_content {
+        overflow-y: scroll;
+    }
+
+    .customizable {
+        display: flex;
+        margin-left: 10px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        align-content: center;
+        margin-bottom: 20vh;
+    }
+
+    .custom_content {
+        overflow-y: scroll;
+    }
+
+    .testimonial {
+        text-align: center;
+        width: 342px;
+        margin: 0 auto;
+    }
+
+    .testimonial2 {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+
+        flex-wrap: wrap;
+    }
+
+    .test_content {
+        overflow-y: scroll;
+    }
+
+    .FAQ {
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .FAQ_CONTENT div {
+        height: 130px;
+    }
+
+    .FAQ>.p1 {
+        margin-left: 10px;
+    }
+
+    .FAQ>.p2 {
+        margin-left: 10px;
+        font-size: 40px;
+    }
+
+    .FAQ1 svg {
+        width: 100%;
+    }
+
+    .FAQ2 svg {
+        width: 100%;
+    }
+
+    .FAQ3 svg {
+        width: 100%;
+    }
+
+    .FAQ4 svg {
+        width: 100%;
+    }
+
+    .FAQ5 svg {
+        width: 100%;
+    }
+
+    .FAQ6 svg {
+        width: 100%;
+    }
+
+    .banner {
+        margin-left: 10px;
+        text-align: center;
+        margin-top: 100px;
+        overflow-y: scroll;
+    }
+
+    .footer {
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 100px;
+        justify-items: center;
+        gap: 30px;
+    }
+
+    .f5 {
+        margin-top: 50px;
+        display: block;
+        position: relative;
+        /* margin-right: 20px; */
+        margin-left: -91px;
+    }
+
+    .background-svg {
+        position: absolute;
+        top: 11%;
+        left: -37%;
+        z-index: -1;
+    }
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+
+    @media (max-width: 600px) {
+
+        .nav-ul {
+            position: relative;
+            top: 73px;
+            right: 180px;
+            background-image: linear-gradient(45deg, #ff5555, #feeed0);
+            padding: 10px 21px;
+            /* gap: 23px; */
+            text-wrap: nowrap;
+        }
+
+        .dwn_btn {
+            display: block;
+            position: absolute;
+            right: 15px;
+        }
+
+        .Download_btn {
+            width: 112px;
+            height: 40px;
+
+        }
+
+
+
+        .logo {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .test2image {
+            width: 413px;
+            height: 413px;
+        }
+
+        .background-svg6 {
+            position: absolute;
+            right: -12%;
+            z-index: -2;
+            top: 787%;
+        }
+
+        .background-svg4 {
+            position: absolute;
+            right: -4%;
+            z-index: -2;
+            top: 181%;
+        }
+
+        .background-svg3 {
+            position: absolute;
+            right: 1%;
+            z-index: -2;
+            top: 128%;
+        }
+
+    }
+
+}
